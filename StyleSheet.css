@@ -1,0 +1,44 @@
+﻿
+
+/*css mot en Tag/Element*/
+ div {
+    width: 1024px;
+    width: 100%;
+    border: 1px solid #4CAF50;
+}
+
+header {
+    width: 1024px;
+    width: 100%;
+    border: 1px solid #4CAF50;
+    <h1 style="background-color:rgb(255, 99, 71);">Nyheterna</h1> 
+    <h4 style="background-color:aqua;">Test 1</h4>
+}
+footer {
+    width: 1024px;
+    width: 100%;
+    border: 1px solid #4CAF50;
+    text-align:center;
+}
+#plan_div {
+
+
+}
+
+/*mot en id*/
+#plan {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: lightblue;
+   
+}
+
+/*mot en class*/
+.kropp {
+    background-color: aliceblue;
+}
+
+</div >
