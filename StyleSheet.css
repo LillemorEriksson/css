@@ -14,21 +14,52 @@ header {
 
 }
 
+#header_div {
+    width: 15%;
+    height: 50px;
+    margin-right: 1px;
+    background-color: lightgrey;
+    border-style: solid;
+    margin: 100px;
+}
+
 footer {
     /*width: 1024px;*/
     width: 100%;
     text-align: center;
     background-color: purple;
+    border-style: solid;
+}
+
+#paragraf_div {
+    background-color: lightgrey;
+    border-style: solid;
+    margin: 10px;
 }
 
 #plan_div {
     background-color: yellow;
+    border-style: solid;
+}
+
+#article_div {
+    background-color: lightgrey;
+    border-style: solid;
+    margin: 100px;
+    
+}
+
+#article_div2 {
+    background-color: lightgrey;
+    border-style: solid;
+    margin: 100px;
+   
 }
 
 /*mot en id*/
 #plan {
-    width: 100px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     border: 1px solid #4CAF50;
     border: 1px solid black;
     margin-top: 100px;
@@ -42,10 +73,12 @@ footer {
 .kropp {
     background-color: aliceblue;
     width: 1024px;
+    border-style: solid;
 }
 
 aside {
     background-color: palegreen;
+    border-style: solid;
 }
 
 .toLeft {
@@ -64,10 +97,10 @@ header > nav {
     background-color: darkcyan;
 }
 
-header > nav > ul {
-    background-color: darkcyan;
-    margin-top: 15px;
-}
+   /* header > nav > ul {
+        background-color: darkcyan;
+        margin-top: 15px;*/
+    }
 
 
 header > nav > ul > li {
@@ -78,8 +111,8 @@ header > nav > ul > li {
         display: block;
         border-style: solid;
         border-width: medium;
-        margin-top: 15px;
-        margin-bottom: 12px;
-        margin-right: 1px;
-        margin-left: 1px;
+        margin-top: 14px;
+        margin-bottom: 7px;
+        margin-right: -6px;
+        margin-left: 0px;
     }
