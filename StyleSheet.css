@@ -6,66 +6,73 @@ div {
 header {
     /*width: 1024px;*/
     width: 100%;
-    height: 70px;
+    height: 60px;
+    text-align: left;
     background-color: orangered;
     border-style: solid;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 0px;
-
 }
 
 #header_div {
-    width: 15%;
-    height: 50px;
-    margin-right: 1px;
+
     background-color: lightgrey;
     border-style: solid;
-    margin: 100px;
+    margin: 10px;
+    width: 170px;
+    height: 50px;
+    
 }
 
-footer {
-    /*width: 1024px;*/
-    width: 100%;
-    text-align: center;
-    background-color: purple;
-    border-style: solid;
-}
 
 #paragraf_div {
     background-color: lightgrey;
     border-style: solid;
     margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #plan_div {
     background-color: yellow;
     border-style: solid;
+
 }
 
 #article_div {
     background-color: lightgrey;
     border-style: solid;
-    margin: 100px;
-    
+    margin: 10px;
+    width: 500px;
+    height: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+.toRight_div {
+
+}
 #article_div2 {
+    text-align: left;
     background-color: lightgrey;
+    margin: 10px;
+    width: 500px;
+    height: 700px;
     border-style: solid;
-    margin: 100px;
-   
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*mot en id*/
 #plan {
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
     border: 1px solid #4CAF50;
     border: 1px solid black;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    margin-left: 60px;
     background-color: lightblue;
 }
 
@@ -105,14 +112,28 @@ header > nav {
 
 header > nav > ul > li {
     background-color: darkcyan;
+    text-align: center;
+    width: 130px;
+    height: 35px;
 }
 
     header > nav > ul > li > a {
+        width: 130px;
+        height: 35px;
         display: block;
+        text-align: center;
         border-style: solid;
-        border-width: medium;
-        margin-top: 14px;
-        margin-bottom: 7px;
-        margin-right: -6px;
+        /*border-width: medium;*/
+        margin-top: 1px;
+        margin-bottom: -9px;
+        margin-right: 0px;
         margin-left: 0px;
+        margin:1px;
     }
+footer {
+    width: 1024px;
+    width: 100%;
+    text-align: center;
+    background-color: purple;
+    border-style: solid;
+}
