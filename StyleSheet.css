@@ -7,7 +7,7 @@ header {
     /*width: 1024px;*/
     width: 100%;
     height: 60px;
-    text-align: left;
+    text-align: left; 
     background-color: orangered;
     border-style: solid;
     margin-top: 0px;
@@ -15,13 +15,11 @@ header {
 }
 
 #header_div {
-
     background-color: lightgrey;
     border-style: solid;
     margin: 10px;
     width: 170px;
     height: 50px;
-    
 }
 
 
@@ -36,28 +34,29 @@ header {
 #plan_div {
     background-color: yellow;
     border-style: solid;
-
+    width: 700px;
 }
 
 #article_div {
+    float: left;
+    display: inline-block;
     background-color: lightgrey;
     border-style: solid;
     margin: 10px;
-    width: 500px;
-    height: 700px;
+    width: 46%;
+    height: 950px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.toRight_div {
 
-}
 #article_div2 {
+    display: inline-block;
     text-align: left;
     background-color: lightgrey;
     margin: 10px;
-    width: 500px;
-    height: 700px;
+    width: 46%;
+    height: auto;
     border-style: solid;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -86,12 +85,19 @@ header {
 aside {
     background-color: palegreen;
     border-style: solid;
+    width: 30%;
+    float: right;
+    margin-top: -1000px;
+}
+.toLeft {
+    float: left;
+    height: 42px;
+    width: auto;
+    margin-bottom:auto;
 }
 
-.toLeft {
-    /* float: left; */
-    display: inline-block;
-}
+
+
 header > nav {
     width: 470px;
     height: 66px;
@@ -99,37 +105,42 @@ header > nav {
     margin-bottom: 1px;
     margin-right: 100px;
     margin-left: 1px;
-    border-style: solid;
     border-width: medium;
     background-color: darkcyan;
+    display: inline-block;
+
 }
 
-   /* header > nav > ul {
+    header > nav > ul {
         background-color: darkcyan;
-        margin-top: 15px;*/
-    }
-
-
-header > nav > ul > li {
-    background-color: darkcyan;
-    text-align: center;
-    width: 130px;
-    height: 35px;
-}
-
-    header > nav > ul > li > a {
-        width: 130px;
-        height: 35px;
-        display: block;
         text-align: center;
-        border-style: solid;
-        /*border-width: medium;*/
-        margin-top: 1px;
-        margin-bottom: -9px;
-        margin-right: 0px;
-        margin-left: 0px;
-        margin:1px;
+        display: inline-block;
+
     }
+
+
+        header > nav > ul > li {
+            background-color: darkcyan;
+            display: inline-block;
+            width: 130px;
+            
+        }
+
+            header > nav > ul > li > a {
+                width: 130px;
+                display: inline-block;
+                text-align: center;
+                /* border-width: medium; */
+                /* margin-top: 1px; */
+                /* margin-bottom: 25px; */
+                /* margin-right: 0px; */
+                /* margin-left: 0px; */
+                /*/margin: -38px; */
+                border-left: 2px solid black;
+                position: center;
+                height: 44px;
+            }
+
 footer {
     width: 1024px;
     width: 100%;
